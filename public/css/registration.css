@@ -1,0 +1,86 @@
+html {
+  display: flex;
+  /*背景图片*/
+  margin: 0; /*移除默认边距*/
+  height: 100vh; /*设置为窗口高度*/
+  background-image: url("../images/registration.png"); /*设置图片为当前目录的image.pen*/
+  background-size: cover; /*使图片覆盖整个html元素*/
+  background-position: center; /*居中图片*/
+  background-repeat: no-repeat; /*禁止图片重复*/
+}
+
+html {
+  /*字体*/
+  p {
+    font-family: "STXIHEI", sans-serif; /*首选字体,备选字体*/
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+
+  h1 {
+    font-family: "STXIHEI", sans-serif;
+  }
+}
+
+#contour {
+  /*边框样式*/
+  border: 0px solid #00000000; /*设置一个0像素透明边框*/
+  border-radius: 8px; /*设置边框圆角*/
+  box-shadow: 0px 0px 15px #000000c6; /*设置阴影与阴影大小*/
+  outline-offset: -2px; /*让边框与元素贴贴<不是>*/
+  margin-top: 340px; /*设置盒子与窗口顶部的距离*/
+  margin-left: 50px; /*设置盒子与窗口左边的距离*/
+  background-color: #eee; /*设置盒子内的颜色*/
+  padding-bottom: 30px; /*设置内边框下为30像素*/
+}
+
+input {
+  /*输入框样式*/
+  box-sizing: border-box; /*设置为内部元素大小*/
+  border: 2px solid #959595; /*边框设置为2像素 颜色设置为959595*/
+  border-radius: 8px; /*圆角设置为8像素*/
+  font-size: 16px; /*内部文字大小设置为16像素*/
+  background-color: #ffffff; /*背景设置为FFFFFF*/
+  padding: 12px 20px 12px 40px; /*设置内边距 上12像素 右20像素 下12像素 左40像素*/
+}
+
+button {
+  /*按钮样式*/
+  background-color: #0a0a23; /*背景颜色设置为0A0A23*/
+  color: #fff; /*文字颜色设置为白色*/
+  border: none; /*取消边框*/
+  border-radius: 10px; /*圆角设置为10像素*/
+  padding: 15px; /*内边距为15像素*/
+  min-height: 30px; /*最小高度30像素*/
+  min-width: 120px; /*最小宽度120像素*/
+  margin-right: 10px; /*右边距10像素*/
+}
+
+#registration {
+  /*输入框盒子排版*/
+  margin-left: 50px; /*左外边距50像素*/
+  margin-right: 50px; /*右边距50像素*/
+  margin-top: 20px; /*上边距20像素*/
+  margin-bottom: 0px; /*下边距0像素*/
+  display: flex; /*弹性盒子*/
+  flex-direction: column; /*设置为垂直排版*/
+  align-items: flex-start; /*设置元素向左靠*/
+  align-items: center;
+}
+
+#input_code {
+  /*验证码输入框样式*/
+  margin-left: 50px; /*左外边距50像素*/
+  width: 134px; /*总宽度为134像素*/
+}
+
+#tips {
+  /*下方小文字样式*/
+  margin-left: 52px; /*左外边距52像素*/
+}
+
+#registration {
+  /*注册按钮*/
+  margin-top: 0px; /*顶部边框0像素*/
+  width: 258px; /*宽度258像素*/
+}
